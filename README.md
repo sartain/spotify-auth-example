@@ -45,13 +45,13 @@ This is not designed for production as the tokens are stored locally in a json f
 
 - Running application
   - `python app.py`
-  - Navigate to `localhost:8080` or wherever you choose to run in `app.py` to view authorization
+  - Navigate to `localhost:8080` or wherever you choose to run in `app.py` to view.
 
 ## How to use the template
 
 This template has been setup to cover the authorization steps and make it simple to get started on using Spotify APIs.
 
-There is an 'authorize' button which completes the authorization stages. Future clicks of the button will attempt to use the refresh token.
+There is an 'authorize' button which completes the authorization stages. Future clicks of the button once auhtorized will refresh using the refresh token.
 The official documentation for the authorization stages is [here](https://developer.spotify.com/documentation/web-api/tutorials/code-flow).
 
 ## Adding Spotify API calls
