@@ -1,0 +1,4 @@
+pytest==6.2.4
+requests
+flask
+python-dotenv
